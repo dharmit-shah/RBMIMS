@@ -7,11 +7,12 @@ const AboutCoreValue = () => {
         <div className="grid grid-cols-2 items-center gap-10 max-md:grid-cols-1 1xl:gap-x-24">
           <CoreValueAnimation />
           <div>
-            <p className="section-tagline">Core Value</p>
-            <h2 className=" mb-8 max-md:mb-4">The philosophy that underpins our organization.</h2>
+            <p className="section-tagline">Our philosophy</p>
+            <h2 className=" mb-8 max-md:mb-4">The philosophy that underpins our organization</h2>
             <p className="mb-11  max-md:mb-6">
-              Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text nothing Before & After
-              magazine.
+              We believe in solving large-scale governance problems with smart, sustainable technology. Our approach
+              combines user-centric design, backend scalability, and continuous innovation to support mission-critical
+              infrastructure systems.
             </p>
             <ul className="mb-14 [&>*:not(:last-child)]:mb-6 max-md:[&>*:not(:last-child)]:mb-4">
               <li className="flex items-center gap-x-2 ">
@@ -60,7 +61,7 @@ const AboutCoreValue = () => {
                   </svg>
                 </span>
 
-                <span className="dark:text-white"> Crypto connection </span>
+                <span className="dark:text-white"> GIS-based mapping and location intelligence</span>
               </li>
             </ul>
           </div>

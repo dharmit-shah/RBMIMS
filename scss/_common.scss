@@ -342,3 +342,35 @@ span {
 .crossrods_radius {
   border-radius: 16px;
 }
+
+// .nav-sticky {
+//   background: #fff;
+// }
+.feature_display {
+  height: 250px;
+  object-fit: cover;
+}
+.list_style {
+  display: flex;
+  row-gap: 14px;
+  flex-direction: column;
+}
+
+.list_style li {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #0e4e6321;
+}
+.list_style span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1050px;
+  background-color: #0e4e63;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  font-weight: 600;
+}
