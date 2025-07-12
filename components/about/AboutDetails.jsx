@@ -52,9 +52,9 @@ const AboutDetails = () => {
               designed for real-world implementation, not just theory.
               <br />
               <br />
-              Risus egestas neque. Nunc diam arcu purus egestas at dignissim nunc. In nec donec sed pretium donec eros
-              elementum. Nec bibendum vel odio convallis feugiat viverra rhoncus in risus. Pretium ante nibh morbi sed
-              consequat sem quam pharetra. Et cursus mattis senectus aliquet.
+              With successful deployments across departments and districts, RBMIMS has proven its capability to handle
+              complex infrastructure workflows. From road surveys to fund audits, our system adapts to real-time
+              needs—ensuring faster decisions, improved transparency, and measurable outcomes for every project phase.
             </p>
           </div>
         </div>

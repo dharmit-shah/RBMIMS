@@ -23,17 +23,9 @@
         "newTab": false
       },
       {
-        "id": 4,
-        "title": "Pages",
-        "path": "#",
-        "imageLight": "/images/navbar.png",
-        "imageDark": "/images/navbar-dark.png",
-        "newTab": false
-      },
-      {
         "id": 5,
         "path": "#",
-        "title": "News"
+        "title": "Blog"
       },
       {
         "id": 6,

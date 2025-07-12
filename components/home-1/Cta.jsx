@@ -3,7 +3,7 @@ import HeroLine1 from '../icons/HeroLine1'
 import HeroLine2 from '../icons/HeroLine2'
 import HeroLine3 from '../icons/HeroLine3'
 import Image from 'next/image'
-import ccsstpLogo from '@/public/images/hero/ccsstp-logo.webp'
+import ccsstpLogo from '@/public/images/hero/ccsstp-logo.png'
 
 const Cta = () => {
   return (
@@ -29,7 +29,7 @@ const Cta = () => {
             for public sector and government use.
           </p>
           <Link href="#" className="">
-            <Image src={ccsstpLogo} alt="ccsstp Logo" className="w-full dark:hidden" />
+            <Image src={ccsstpLogo} alt="ccsstp Logo" height={100} className="dark:hidden" />
           </Link>
         </div>
       </div>

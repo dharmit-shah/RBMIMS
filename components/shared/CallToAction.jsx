@@ -11,9 +11,10 @@ const CallToAction = ({ title }) => {
         </div>
         <div className="absolute -bottom-[350px] left-1/2 -z-10 h-full w-full -translate-x-1/2 bg-[url('/images/hero-gradient.png')]  bg-contain bg-center bg-no-repeat p-[350px] opacity-70 md:hidden"></div>
         <div className=" mx-auto text-center">
-          <h2 className="mx-auto mb-5 max-w-[800px] text-[48px] font-semibold max-lg:text-[32px]">{title}</h2>
-          <p className="mx-auto mb-12 max-w-[400px] max-lg:mt-6">
-            Experience the power of RBMIMS with a guided demo or trial account.
+          <h2 className="mx-auto mb-5 max-w-[700px] text-[48px] font-semibold max-lg:text-[32px]">{title}</h2>
+          <p className="mx-auto mb-12 max-w-[600px] max-lg:mt-6">
+            Experience the impact of RBMIMS with a guided demo or free trial. Let us help you bring transparency and
+            control to your next infrastructure project.
           </p>
           <Link href="/contact" className="btn">
             Get Started Today

@@ -24,18 +24,8 @@ export const FooterData = {
       link: '#',
     },
     {
-      id: 5,
-      name: 'Pricing',
-      link: '#',
-    },
-    {
-      id: 6,
-      name: 'FAQs',
-      link: '#',
-    },
-    {
       id: 7,
-      name: 'Testimonials',
+      name: 'Contact Us',
       link: '#',
     },
   ],
@@ -43,11 +33,6 @@ export const FooterData = {
     {
       id: 2,
       name: 'Team',
-      link: '#',
-    },
-    {
-      id: 3,
-      name: 'Integration',
       link: '#',
     },
     {

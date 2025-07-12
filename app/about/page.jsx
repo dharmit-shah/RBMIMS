@@ -3,12 +3,14 @@ import AboutDetails from '@/components/about/AboutDetails'
 import Footer from '@/components/footer/Footer'
 import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import CallToAction from '@/components/shared/CallToAction'
+// import Counter from '@/components/shared/Counter'
 import Counter from '@/components/shared/Counter'
 import PageHero from '@/components/shared/PageHero'
 import PaymentFeatures from '@/components/shared/PaymentFeatures'
 import TeamMembers from '@/components/shared/TeamMembers'
-import TestimonialSlider from '@/components/shared/TestimonialSlider'
+// import TestimonialSlider from '@/components/shared/TestimonialSlider'
 import AboutFeature from '@/data/aboutFeaturesData'
+import Testimonial from '@/components/shared/Testimonial'
 
 export const metadata = {
   title: 'About',
@@ -32,10 +34,12 @@ const About = () => {
           className={'relative bg-white py-150 dark:bg-dark-300 max-md:overflow-hidden max-md:py-25'}
         />
         <AboutCoreValue />
-        <TestimonialSlider />
+        <Testimonial />
+        {/* <TestimonialSlider /> */}
         <Counter />
+        {/* <Counter /> */}
         <TeamMembers />
-        <CallToAction title="Start your best payment experience now!" />
+        <CallToAction title="Start your digital transformation today!" />
       </main>
       <Footer />
     </>
