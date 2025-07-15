@@ -1,6 +1,6 @@
 import FadeUpAnimation from '@/components/animations/FadeUpAnimation'
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
 import IntegrationList from '@/data/integrationData'
@@ -14,7 +14,7 @@ const Integration = () => {
   const { IntegrationData } = IntegrationList
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <PageHero
           subtitle="INTEGRATION"

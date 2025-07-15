@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import PriceChoose from '@/components/price/PriceChoose'
 
 import Counter from '@/components/shared/Counter'
@@ -14,7 +14,7 @@ export const metadata = {
 const Price = () => {
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <section className="relative overflow-hidden bg-white pt-[120px]  dark:bg-dark-300 max-lg:pt-150 max-md:mb-25">
           <Pricing showPricingText={true} largeTitle pricingDescription />

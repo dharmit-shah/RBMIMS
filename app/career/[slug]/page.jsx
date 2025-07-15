@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 import getMarkDownContent from '@/utils/getMarkDownContent'
 import getMarkDownData from '@/utils/getMarkDownData'
@@ -30,7 +30,7 @@ const CareerSinglePage = async (props) => {
 
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <section className="hero  relative overflow-hidden pb-[60px] pt-[240px] max-lg:pt-150">
           <div className="container">

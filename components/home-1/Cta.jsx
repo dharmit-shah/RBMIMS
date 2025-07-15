@@ -20,13 +20,13 @@ const Cta = () => {
       <div className="container relative z-10">
         <div className="mx-auto text-center">
           <h2 className="mb-5 text-[48px] font-semibold max-lg:text-[32px]">
-            Powered by <br />
-            Cad Consultants and Services
+            About <br />
+            Cad Consultants & Services
           </h2>
           <p className="mx-auto mb-12 max-w-[800px] max-lg:mt-6">
-            RBMIMS is an innovative digital platform developed by Cad Consultants and Services. Specialized in
-            infrastructure and GIS solutions, the company brings deep domain expertise to streamline project management
-            for public sector and government use.
+            Cad Consultants & Services is an established engineering consultancy specializing in infrastructure GIS
+            solutions. RBMIMS is our flagship product, developed and supported in-house to ensure maximum reliability
+            and accuracy.
           </p>
           <Link href="#" className="">
             <Image src={ccsstpLogo} alt="ccsstp Logo" height={100} className="dark:hidden" />

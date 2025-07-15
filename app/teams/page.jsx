@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import Counter from '@/components/shared/Counter'
 import Faq from '@/components/shared/Faq'
 import NewsLetter from '@/components/shared/NewsLetter'
@@ -14,7 +14,7 @@ export const metadata = {
 const Teams = () => {
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <PageHero
           subtitle="OUR TEAM"

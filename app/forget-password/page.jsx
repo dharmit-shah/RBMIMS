@@ -1,6 +1,6 @@
 import FadeUpAnimation from '@/components/animations/FadeUpAnimation'
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 
 export const metadata = {
@@ -10,7 +10,7 @@ export const metadata = {
 const ForgetPassword = () => {
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <section className="relative mb-150 pt-[200px] max-md:pt-25">
           <div className="absolute left-1/2 top-25 -z-10 h-[550px] w-full -translate-x-1/2  bg-[url('/images/hero-gradient.png')] bg-cover bg-center bg-no-repeat opacity-30 md:hidden"></div>

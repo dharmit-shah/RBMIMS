@@ -1,6 +1,6 @@
 import FaqFilter from '@/components/faq/FaqFilter'
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import PageHero from '@/components/shared/PageHero'
 
 export const metadata = {
@@ -10,7 +10,7 @@ export const metadata = {
 const FaqPage = () => {
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <PageHero
           subtitle="FAQ’S"

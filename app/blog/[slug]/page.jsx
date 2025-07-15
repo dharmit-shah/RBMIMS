@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
 import getMarkDownContent from '@/utils/getMarkDownContent'
@@ -29,7 +29,7 @@ const BlogDetails = async (props) => {
   const postParams = blog.data
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <PageHero subtitle="BLOG Details" title="Recent blogs created <br/> by aplio" />
         <article className="relative pb-150">

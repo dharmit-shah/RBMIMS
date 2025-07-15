@@ -25,8 +25,8 @@ const Vision = () => {
       <div className="container relative z-10">
         <div className="grid grid-cols-2 items-end gap-10 max-md:grid-cols-1 1xl:gap-x-24">
           <div>
-            <p className="section-tagline">Vision</p>
-            <h2 className="mb-8 max-lg:mb-4">A strong vision is crucial.</h2>
+            <p className="section-tagline">Our Work</p>
+            <h2 className="mb-8 max-lg:mb-4">How RBMIMS Works</h2>
             <p className="mb-11 max-lg:mb-5">
               RBMIMS bridges the gap between fieldwork and administration. Track, monitor, and analyze infrastructure
               progress like never before.
@@ -36,30 +36,51 @@ const Vision = () => {
                 <span className=" shadow-icon item-center relative flex h-7 w-7 justify-center rounded-full bg-white dark:bg-dark-200">
                   <FaCheck className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-paragraph dark:text-primary " />
                 </span>
-                <span className="font-jakarta_sans font-medium dark:text-white">Field-level data entry</span>
+                <span className="font-jakarta_sans font-medium dark:text-white">
+                  {' '}
+                  <p>
+                    <strong>Dashboard</strong>
+                  </p>
+                  Access core modules after secure login (User ID or Mobile + OTP).
+                </span>
               </li>
               <li className="flex items-center gap-x-2">
                 <span className=" shadow-icon item-center relative flex h-7 w-7 justify-center rounded-full bg-white dark:bg-dark-200">
                   <FaCheck className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-paragraph dark:text-primary " />
                 </span>
-                <span className="font-jakarta_sans font-medium dark:text-white">Departmental workflow automation</span>
+                <span className="font-jakarta_sans font-medium dark:text-white">
+                  <p>
+                    <strong>Add Alignment</strong>
+                  </p>
+                  Set markers, fill chainage form, upload images for validation.
+                </span>
               </li>
               <li className="flex items-center gap-x-2 ">
                 <span className=" shadow-icon item-center relative flex h-7 w-7 justify-center rounded-full bg-white dark:bg-dark-200">
                   <FaCheck className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-paragraph dark:text-primary " />
                 </span>
-                <span className="font-jakarta_sans font-medium dark:text-white">GIS-enabled dashboards</span>
+                <span className="font-jakarta_sans font-medium dark:text-white">
+                  <p>
+                    <strong>Add Infrastructure</strong>
+                  </p>
+                  Select point, choose type/subtype, complete form with location and file uploads.
+                </span>
               </li>
               <li className="flex items-center gap-x-2 ">
                 <span className=" shadow-icon item-center relative flex h-7 w-7 justify-center rounded-full bg-white dark:bg-dark-200">
                   <FaCheck className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-paragraph dark:text-primary " />
                 </span>
-                <span className="font-jakarta_sans font-medium dark:text-white">Budget & expenditure transparency</span>
+                <span className="font-jakarta_sans font-medium dark:text-white">
+                  <p>
+                    <strong>Submit & Approve</strong>
+                  </p>
+                  End road to trigger approval; only approved data appears in lists and reports.
+                </span>
               </li>
             </ul>
-            <Link href="/contact" className="btn">
+            {/* <Link href="/contact" className="btn">
               Start Your Journey
-            </Link>
+            </Link> */}
           </div>
           <VisionAnimation />
         </div>

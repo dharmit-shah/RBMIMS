@@ -2,9 +2,9 @@
   "ServiceData": [
     {
       "id": 1,
-      "slug": "project-mapping",
-      "title": "Project Mapping",
-      "excerpt": "GIS-based visualization of roads, regions, and progress reports.",
+      "slug": "interactive-mapping",
+      "title": "Interactive Mapping",
+      "excerpt": "Tap anywhere to drop markers, define route alignments, and view real-time infrastructure overlays.",
       "iconLight": "/images/services/investment.svg",
       "iconDark": "/images/services/investment-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -38,9 +38,9 @@
 
     {
       "id": 2,
-      "slug": "budget-tracking",
-      "title": "Budget & Tracking",
-      "excerpt": "Manage costs, release orders, and expenditure logs easily.",
+      "slug": "robust-data-collection",
+      "title": "Robust Data Collection",
+      "excerpt": "Detailed forms for Roads, Culverts, Junctions, Bridges, Facilities—all with image and drawing uploads.",
       "iconLight": "/images/services/sales.svg",
       "iconDark": "/images/services/sales-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -74,9 +74,9 @@
 
     {
       "id": 3,
-      "slug": "work-orders",
-      "title": "Work Orders",
-      "excerpt": "Issue, assign, and monitor project orders seamlessly.",
+      "slug": "approval-workflow",
+      "title": "Approval Workflow",
+      "excerpt": "Admin and staff can review, approve, or reject submitted entries directly from the dashboard.",
       "iconLight": "/images/services/loan.svg",
       "iconDark": "/images/services/loan-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -110,9 +110,9 @@
 
     {
       "id": 4,
-      "slug": "document-upload",
-      "title": "Document Upload",
-      "excerpt": "Centralized file handling with secure cloud storage.",
+      "slug": "smart-search-navigation",
+      "title": "Smart Search & Navigation",
+      "excerpt": "Instantly locate points of interest via search or manual map drag, with automatic centering on selected data.",
       "iconLight": "/images/services/finance.svg",
       "iconDark": "/images/services/finance-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -146,9 +146,9 @@
 
     {
       "id": 5,
-      "slug": "performance-dashboards",
-      "title": "Performance Dashboards",
-      "excerpt": "Real-time dashboards for department heads and project managers.",
+      "slug": "prb-drawings",
+      "title": "PRB Drawings",
+      "excerpt": "Upload technical drawings and download them in the details screen; supports multi-drawing submissions.",
       "iconLight": "/images/services/effeciency.svg",
       "iconDark": "/images/services/effeciency-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -182,9 +182,9 @@
 
     {
       "id": 6,
-      "slug": "multi-user-access",
-      "title": "Multi-User Access",
-      "excerpt": "Role-based access for engineers, officers, and administrators.",
+      "slug": "f1-f2-reporting",
+      "title": "F1/F2 Reporting",
+      "excerpt": "Organize road and infrastructure entries in F1/F2 formats for inspections, categorized by type and status.",
       "iconLight": "/images/services/fund.svg",
       "iconDark": "/images/services/fund-dark.svg",
       "featureImage": "/images/services/service-single1.png",

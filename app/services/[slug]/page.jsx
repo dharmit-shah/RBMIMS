@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import ServiceContent from '@/components/service/ServiceContent'
 import MembersCounter from '@/components/shared/MembersCounter'
 import NewsLetter from '@/components/shared/NewsLetter'
@@ -27,7 +27,7 @@ const ServiceDetails = async (props) => {
 
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <ServiceContent data={data} />
         <MembersCounter />

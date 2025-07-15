@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import Clients from '@/components/shared/Clients'
 import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
@@ -13,7 +13,7 @@ export const metadata = {
 const Testimonial = () => {
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <PageHero
           title="What our customer’s say <br/> about our company"

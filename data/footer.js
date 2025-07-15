@@ -3,7 +3,7 @@ export const FooterData = {
   logo: '/images/rbmims-logo.png',
   logoDark: '/images/rbmims-logo.png',
   footerText:
-    'RBMIMS is a unified platform for managing infrastructure and road development projects with transparency and efficiency. Designed for government departments, it brings planning, tracking, and reporting under one secure digital system.',
+    'Get Started with RBMIMS Today. Join our mailing list or schedule a demo to explore platform capabilities.',
   copyright: `${new Date().getFullYear()} RBMIMS. All Rights Reserved`,
   email: 'info@rbmims.com',
   phone: '+919824353327',
@@ -11,34 +11,34 @@ export const FooterData = {
     {
       id: 1,
       name: 'About',
-      link: '#',
+      link: '/about',
     },
     {
       id: 2,
       name: 'Services',
-      link: '#',
+      link: '/services',
     },
     {
       id: 3,
       name: 'Career',
-      link: '#',
+      link: '/career',
     },
     {
       id: 7,
       name: 'Contact Us',
-      link: '#',
+      link: '/contact',
     },
   ],
   resources: [
     {
       id: 2,
       name: 'Team',
-      link: '#',
+      link: '/team',
     },
     {
       id: 4,
       name: 'Blog',
-      link: '#',
+      link: '/blog',
     },
   ],
 

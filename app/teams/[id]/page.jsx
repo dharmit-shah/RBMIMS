@@ -1,5 +1,5 @@
 import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import ContactForm from '@/components/shared/ContactForm'
 import NewsLetter from '@/components/shared/NewsLetter'
 import TeamMember from '@/components/team/TeamMember'
@@ -29,7 +29,7 @@ const TeamSingle = async (props) => {
 
   return (
     <>
-      <SecondaryNavbar />
+      <PrimaryNavbar />
       <main>
         <div className="container relative mb-150 pt-[250px] max-md:pt-150">
           <div className="absolute left-1/2 top-[200px] -z-10 h-[550px] w-full -translate-x-1/2  bg-[url('/images/hero-gradient.png')] bg-cover bg-center bg-no-repeat opacity-70 md:hidden"></div>

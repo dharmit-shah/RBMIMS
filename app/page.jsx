@@ -22,12 +22,12 @@ export default function Home() {
       <PrimaryNavbar />
       <main>
         <Hero />
-        <Clients />
+        {/* <Clients /> */}
         <Services />
         <Counter />
         <Vision />
         <Solution />
-        <Integration />
+        {/* <Integration /> */}
         <Faq />
         <Testimonial />
         <FinancialBlog />

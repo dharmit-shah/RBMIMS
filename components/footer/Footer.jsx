@@ -55,7 +55,14 @@ const Footer = () => {
           </div>
           <div className="col-span-12 max-lg:text-center lg:col-span-2">
             <h3 className="mb-8 text-lg font-medium">Get In touch</h3>
-            <p className="mb-3">Need Support?</p>
+            <p className="mb-3">
+              <Link
+                href="https://maps.app.goo.gl/WHNjB5MGMT5WixEVA"
+                title="CCS House"
+                className="relative inline-block overflow-hidden text-base capitalize text-paragraph before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph before:transition-transform before:duration-500  before:content-[''] before:hover:origin-left before:hover:scale-x-100 dark:text-white dark:before:bg-white">
+                CCS House, Manisha Cross Road 4, Manisha Society, Vadodara, 390015, India
+              </Link>
+            </p>
             <p className="mb-3">
               <Link
                 href={`mailto:${FooterData.email}`}
