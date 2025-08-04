@@ -3,7 +3,6 @@ import { fadeUpAnimation } from '@/data/animation'
 import useWhileInView from '@/hooks/useWhileInView'
 import CareerImage from '@/public/images/about/career.png'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import { useRef } from 'react'
 
 const CareerDetails = () => {
@@ -19,7 +18,7 @@ const CareerDetails = () => {
           initial="initial"
           animate={controlAnimation}
           variants={fadeUpAnimation}>
-          <Image
+          <img
             src={CareerImage}
             alt="career banner"
             className="w-full  rounded max-md:h-full max-md:w-auto max-md:object-cover  max-md:object-center"

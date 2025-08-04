@@ -1,10 +1,10 @@
 import Footer from '@/components/footer/Footer'
 import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
-import MembersCounter from '@/components/shared/MembersCounter'
+// import MembersCounter from '@/components/shared/MembersCounter'
 import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
-import Pricing from '@/components/shared/Pricing'
-import Services from '@/components/shared/Services'
+// import Pricing from '@/components/shared/Pricing'
+// import Services from '@/components/shared/Services'
 import ServicesData from '@/components/shared/ServicesData'
 
 export const metadata = {
@@ -22,7 +22,6 @@ export default function ServicePage() {
         />
         {/* <Services sectionDetails={false} /> */}
         <ServicesData />
-        
         {/* <Pricing className={'pt-150 max-md:pt-20'} /> */}
         <NewsLetter />
       </main>

@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const AboutDetails = () => {
   const AboutImages = [
     {
@@ -27,7 +25,7 @@ const AboutDetails = () => {
         <div className="mb-[160px] grid grid-cols-3 items-center gap-10  max-md:mb-25 max-md:grid-cols-1">
           {AboutImages.map((items) => (
             <div className="overflow-hidden rounded-medium bg-white p-2.5 shadow-box dark:bg-dark-200" key={items.id}>
-              <Image
+              <img
                 src={items.image}
                 alt="about images"
                 className="feature_display h-auto w-full rounded"

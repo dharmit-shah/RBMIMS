@@ -4,7 +4,6 @@ import PrimaryNavbar from '@/components/navbar/PrimaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
 import IntegrationList from '@/data/integrationData'
-import Image from 'next/image'
 
 export const metadata = {
   title: 'Integration Page',
@@ -34,7 +33,7 @@ const Integration = () => {
                 {IntegrationData.map((items) => (
                   <div className="rounded-medium bg-white p-2.5 shadow-box dark:bg-dark-200" key={items.id}>
                     <div className="rounded border border-dashed border-gray-100 p-10 text-center dark:border-borderColor-dark ">
-                      <Image
+                      <img
                         src={items.image}
                         alt="integartion image"
                         className="mb-8 inline-block h-auto w-auto"

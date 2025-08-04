@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import heroChartDark from '../../public/images/hero/hero-chart-dark.png'
+// import heroChartDark from '../../public/images/hero/hero-chart-dark.png'
 // import heroChartLight from '../../public/images/hero/crossroads.jpg'
-import heroCircleDark from '../../public/images/hero/hero-circle-dark.png'
-import heroCircleLight from '../../public/images/hero/hero-circle.png'
+// import heroCircleDark from '../../public/images/hero/hero-circle-dark.png'
+// import heroCircleLight from '../../public/images/hero/hero-circle.png'
 import heroPolicyDark from '../../public/images/hero/hero-policy-dark.png'
 import heroPolicyLight from '../../public/images/hero/highway.jpg'
 import heroRatingDark from '../../public/images/hero/hero-rating-dark.png'
@@ -16,11 +16,11 @@ const HeroContent = () => {
       <div className="col-span-12 md:col-span-7">
         <p className="mb-8 font-medium uppercase max-lg:mb-4">50k+ Trusted Businesses</p>
         <h1 className="hero_title mb-6 max-md:mb-8">
-          Transform Road {/*  */}
+          Smart Road {/*  */}
           <span className="inline-block rounded-[88px] border-2 border-paragraph bg-[#D9D9D900] px-5 pb-2.5 pt-0.5 font-playfair italic leading-none dark:border-[#F0F3EA]">
             Infrastructure
           </span>
-          &nbsp;Management with Geo‑Precision.
+          &nbsp;Management — All in One Platform.
         </h1>
         <p className="mb-6 max-w-[590px] max-md:mb-8">
           RBMIMS is a cutting‑edge platform built by Cad Consultants & Services for mapping, capturing, and approving

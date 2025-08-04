@@ -2,9 +2,9 @@
   "ServiceData": [
     {
       "id": 1,
-      "slug": "interactive-mapping",
-      "title": "Interactive Mapping",
-      "excerpt": "Drop markers to define road alignments and view real-time overlays of mapped infrastructure directly on an interactive map.",
+      "slug": "geospatial-road-mapping",
+      "title": "Geospatial Road Mapping",
+      "excerpt": "Capture roads & alignments with GPS markers and automatic length calculations. infrastructure directly on an interactive map.",
       "iconLight": "/images/services/investment.svg",
       "iconDark": "/images/services/investment-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -38,9 +38,9 @@
 
     {
       "id": 2,
-      "slug": "robust-data-collection",
-      "title": "Robust Data Collection",
-      "excerpt": "Capture detailed entries for Roads, Culverts, Bridges, Junctions & Facilities with support for uploading photos, drawings, and GPS location data.",
+      "slug": "infrastructure-asset-documentation",
+      "title": "Infrastructure Asset Documentation",
+      "excerpt": " Add and manage culverts, junctions, bridges, and more with form-based entries.",
       "iconLight": "/images/services/sales.svg",
       "iconDark": "/images/services/sales-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -74,9 +74,9 @@
 
     {
       "id": 3,
-      "slug": "approval-workflow",
-      "title": "Approval Workflow",
-      "excerpt": "Field entries go through an admin/staff approval system. Review, approve, or reject submissions directly from the centralized dashboard.",
+      "slug": "image-upload-record-keeping",
+      "title": "Image Upload & Record Keeping",
+      "excerpt": "Click or upload real-time site photos tied to infrastructure entries.",
       "iconLight": "/images/services/loan.svg",
       "iconDark": "/images/services/loan-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -110,9 +110,9 @@
 
     {
       "id": 4,
-      "slug": "smart-search-navigation",
-      "title": "Smart Search & Navigation",
-      "excerpt": "Quickly locate entries via keyword search or map drag. Click to zoom in and access detailed information instantly.",
+      "slug": "prb-register-management",
+      "title": "PRB Register Management",
+      "excerpt": "Upload and manage all drawings and forms through structured screens.",
       "iconLight": "/images/services/finance.svg",
       "iconDark": "/images/services/finance-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -146,9 +146,9 @@
 
     {
       "id": 5,
-      "slug": "prb-drawings",
-      "title": "PRB Drawings",
-      "excerpt": "Upload multiple technical PRB drawings for each structure. View and download directly from the inspection dashboard.",
+      "slug": "approval-verification-workflow",
+      "title": "Approval & Verification Workflow",
+      "excerpt": "Role-based user access with admin/staff data approval flows.",
       "iconLight": "/images/services/effeciency.svg",
       "iconDark": "/images/services/effeciency-dark.svg",
       "featureImage": "/images/services/service-single1.png",
@@ -182,9 +182,9 @@
 
     {
       "id": 6,
-      "slug": "f1-f2-reporting",
-      "title": "F1/F2 Reporting",
-      "excerpt": "Export road and infrastructure data in standardized F1/F2 formats for documentation, inspection, and compliance tracking.",
+      "slug": "search-filter-visualize",
+      "title": "Search, Filter & Visualize",
+      "excerpt": "Interactive map views and infrastructure search by category, subtype, or location.",
       "iconLight": "/images/services/fund.svg",
       "iconDark": "/images/services/fund-dark.svg",
       "featureImage": "/images/services/service-single1.png",

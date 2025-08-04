@@ -9,7 +9,7 @@ const BlogItems = ({ slug, blogData, content, column }) => {
       <div className="rounded border border-dashed border-gray-100 p-6 dark:border-borderColor-dark  max-md:px-4">
         <div className="grid grid-cols-2 items-center gap-12 max-lg:grid-cols-1">
           <div className="w-ful mb-6 h-full ">
-            <Image
+            <img
               src={blogData.thumbnail}
               alt="service logo"
               className="aspect-square h-full w-full rounded-md object-cover object-center"

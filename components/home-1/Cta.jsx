@@ -7,7 +7,7 @@ import ccsstpLogo from '@/public/images/hero/ccsstp-logo.png'
 
 const Cta = () => {
   return (
-    <section className="relative overflow-hidden bg-gray pb-[145px] pt-[135px] dark:bg-dark max-md:py-20">
+    <section className="relative overflow-hidden bg-gray pb-[100px] pt-[100px] dark:bg-dark max-md:py-20">
       <div className="absolute left-1/2 top-0 max-w-[1612px] -translate-x-1/2 max-md:hidden">
         <HeroLine1 />
       </div>

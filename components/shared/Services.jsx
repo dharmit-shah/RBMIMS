@@ -2,20 +2,17 @@ import ServiceBoxes from './ServiceBoxes'
 
 const Services = ({ sectionDetails = true }) => {
   return (
-    <section className="relative bg-white pb-150 pt-150 dark:bg-dark-300 sm:overflow-hidden">
+    <section className="pb-100 pt-100 relative bg-white dark:bg-dark-300 sm:overflow-hidden">
       <div className="absolute left-0 right-0 top-25 h-full w-full bg-[url('/images/service-bg.png')] bg-cover bg-center bg-no-repeat opacity-70 sm:hidden"></div>
       <div className="container">
         {sectionDetails && (
           <div className="mb-12">
-            <p className="section-tagline max-lg:text-center">Our Services</p>
+            <p className="section-tagline max-lg:text-center">What We Offer</p>
             <div className="block max-lg:text-center lg:flex">
-              <h2 className=" max-lg:mb-5">
-                The world&rsquo;s best companies <br />
-                trust RBMIMS.
-              </h2>
+              <h2 className=" max-lg:mb-5">End-to-End Digital Infrastructure Data Solutions</h2>
               <p className="max-w-[520px] lg:ml-auto">
-                Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It&rsquo;s not
-                Latin, though it looks like it
+                From data collection to approval and real-time map-based tracking — we streamline the entire process for
+                you.
               </p>
             </div>
           </div>

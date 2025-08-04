@@ -6,7 +6,6 @@ import imageShapeDark from '@/public/images/about/about3.jpg'
 import imageShape from '@/public/images/about/about2.jpg'
 import imageOnlineValue from '@/public/images/about/about3.jpg'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import { useRef } from 'react'
 
 const CoreValueAnimation = () => {
@@ -21,12 +20,12 @@ const CoreValueAnimation = () => {
       initial="initial"
       animate={controlAnimation}
       variants={fadeUpAnimation}>
-      <Image
+      <img
         src={imageOnlineValue}
         alt="banking image"
         className="max-w-[250px] dark:hidden lg:max-w-[320px] xl:max-w-[420px]"
       />
-      <Image
+      <img
         src={imageOnlineValueDark}
         alt="banking image"
         className="hidden max-w-[250px]  dark:inline-block lg:max-w-[320px] xl:max-w-[420px]"
@@ -37,8 +36,8 @@ const CoreValueAnimation = () => {
         initial="initial"
         animate={controlAnimation2}
         variants={fadeFromRightAnimation}>
-        <Image src={imageShape} alt="banking image" className="dark:hidden" />
-        <Image src={imageShapeDark} alt="banking image" className="hidden dark:inline-block " />
+        <img src={imageShape} alt="banking image" className="dark:hidden" />
+        <img src={imageShapeDark} alt="banking image" className="hidden dark:inline-block " />
       </motion.div>
 
       <div className="absolute bottom-8 left-0 right-auto top-auto max-w-[180px] md:max-w-[250px] xl:max-w-[344px]"></div>

@@ -1,7 +1,7 @@
 import solutionImage from '@/public/images/solution/solution.png'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaCheck } from 'react-icons/fa'
+// import { FaCheck } from 'react-icons/fa'
 import MembersCounter from './MembersCounter'
 
 const ServicesData = () => {
@@ -28,8 +28,8 @@ const ServicesData = () => {
 
             <p>
               With full zoom and pan controls, satellite/hybrid layers, and auto-calculation of chainages, the mapping
-              module is ideal for both planning and execution teams. Whether you're capturing a new road or updating an
-              existing route, every action is synced to the backend seamlessly.
+              module is ideal for both planning and execution teams. Whether you&apos;re capturing a new road or
+              updating an existing route, every action is synced to the backend seamlessly.
             </p>
 
             <Link href={'/'} className="btn-outline btn-sm mt-6">
@@ -184,14 +184,14 @@ const ServicesData = () => {
           <div className="max-md:order-1 lg:-mt-15">
             <h2 className="mb-8 max-lg:mb-4">Smart Search & Navigation</h2>
             <p className="mb-6 max-lg:mb-6">
-              Finding specific data in large projects is effortless with RBMIMS' smart search. Users can search by name,
-              ID, location, or type to instantly locate infrastructure elements. Results appear as clickable entries
-              that center the map on the selected point.
+              Finding specific data in large projects is effortless with RBMIMS&apos; smart search. Users can search by
+              name, ID, location, or type to instantly locate infrastructure elements. Results appear as clickable
+              entries that center the map on the selected point.
             </p>
 
             <p>
               In addition, manual map dragging and marker selection offer an alternative way to explore. Whether on-site
-              or in-office, users get immediate context of what's built, pending, or approved, making planning and
+              or in-office, users get immediate context of what&apos;s built, pending, or approved, making planning and
               auditing tasks far more productive.
             </p>
 

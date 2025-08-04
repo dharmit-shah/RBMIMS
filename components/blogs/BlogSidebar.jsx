@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 
@@ -84,7 +83,7 @@ const BlogSidebar = ({ blogSidebarData, setActive, search, setSearch }) => {
               {blogSidebarData.slice(0, 2).map((blogs) => (
                 <article className="grid grid-cols-12 gap-4" key={blogs.slug}>
                   <div className="col-span-4">
-                    <Image
+                    <img
                       src={blogs.data.thumbnail}
                       alt="blog"
                       className="h-full w-full rounded-lg object-cover"

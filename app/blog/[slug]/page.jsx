@@ -4,7 +4,6 @@ import NewsLetter from '@/components/shared/NewsLetter'
 import PageHero from '@/components/shared/PageHero'
 import getMarkDownContent from '@/utils/getMarkDownContent'
 import getMarkDownData from '@/utils/getMarkDownData'
-import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 
 export async function generateStaticParams() {
@@ -42,7 +41,7 @@ const BlogDetails = async (props) => {
             </div>
 
             <div className="mb-16 overflow-hidden rounded-medium bg-white p-2.5 shadow-box dark:bg-dark-200 max-md:h-[400px]">
-              <Image
+              <img
                 src={postParams.featureImage}
                 alt="about images"
                 className="w-full rounded  max-md:h-full max-md:object-cover max-md:object-center"
